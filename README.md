@@ -49,5 +49,5 @@ $ podman build -t squatter .
 $ podman run -e "DOMAIN=dark-admin.net" localhost/squatter
 ```
 
-
+#######################################################################
 Thanks to [0xb4db01](https://github.com/0xb4db01) for some coding help!
