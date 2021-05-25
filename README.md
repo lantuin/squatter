@@ -27,7 +27,7 @@ This project is based on the wonderful [DNSTWIST](https://github.com/elceef/dnst
 ```
 $ sudo apt install google-chrome-stable
 $ sudo apt install chromedriver
-$ git clone https://github.com/lantuin/squatter/squatter.git --recurse
+$ git clone https://github.com/lantuin/squatter.git --recurse
 $ cd squatter
 $ pip3 install -r requirements.txt
 ```
