@@ -1,5 +1,5 @@
 # SQUATTER
-SQUATTER finds all occurrences of a given domain and, if a registered domain has an HTTP(S) website, checks if it is similar to the original domain
+SQUATTER finds all occurrences of a given domain and, if a registered domain has an HTTP(S) website, checks if it is similar to the original domain. If similarity is major than 50% then SQUATTER raises an alarm
 
 ```
 $ python3 squatter.py dark-admin.net
