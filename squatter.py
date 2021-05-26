@@ -172,6 +172,7 @@ def main():
         if 'homoglyph' in i:
             print(i['homoglyph'],end = ' ')
     print()
+    print ("Total: " + str(total))
 
 
     if not siti:
