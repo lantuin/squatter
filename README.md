@@ -35,20 +35,20 @@ $ pip3 install -r requirements.txt
 ## CONTAINER (DOCKER/PODMAN)
 There is also a Docker/Podman dockerfile to create a container.
 
+### Run the docker app
 
-### Install docker app
+```
+$ podman run --rm -e "DOMAIN=dark-admin.net" lantuin/squatter
+```
+
+### BUILD docker app
 
 ```
 $ cd docker
 $ podman build -t squatter .
 ```
 
-### Run the docker app
-
-```
-$ podman run -e "DOMAIN=dark-admin.net" localhost/squatter
-```
-
 #######################################################################
 
 Thanks to [0xb4db01](https://github.com/0xb4db01) for some coding help!
+
